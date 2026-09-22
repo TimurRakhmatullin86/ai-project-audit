@@ -1,4 +1,4 @@
-# ai-audit
+# ai-project-audit
 
 [![npm](https://img.shields.io/npm/v/ai-project-audit)](https://www.npmjs.com/package/ai-project-audit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
@@ -34,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: TimurRakhmatullin86/ai-audit@main
+      - uses: TimurRakhmatullin86/ai-project-audit@main
         with:
           fail-below: 70  # optional: fail PR if score < 70
 ```

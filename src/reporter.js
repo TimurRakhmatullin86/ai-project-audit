@@ -20,7 +20,7 @@ function formatMarkdown(scoreResult, allFindings, filesScanned) {
 
   lines.push(`## 🤖 AI Project Audit — Grade: **${grade}** (${score}/100)`);
   lines.push("");
-  lines.push(`> Scanned ${filesScanned} files | [ai-audit](https://github.com/TimurRakhmatullin86/ai-audit)`);
+  lines.push(`> Scanned ${filesScanned} files | [ai-project-audit](https://github.com/TimurRakhmatullin86/ai-project-audit)`);
   lines.push("");
 
   for (const [mod, icon] of Object.entries(ICONS)) {
