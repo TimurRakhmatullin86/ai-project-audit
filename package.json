@@ -1,6 +1,6 @@
 {
   "name": "ai-project-audit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI project audit: security, license compliance, privacy, and cost checks for LLM applications. GitHub Action + CLI.",
   "main": "src/index.js",
   "bin": {
